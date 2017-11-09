@@ -49,7 +49,7 @@ Requests will go through http://bcw-getter.herokuapp.com to get around the CORS 
 ### Data Transformation
 
 <p>Each song in the AJAX response should be transformed to the following structure before passing them to the callback function:</p>
-<p><code>
+<p><code><pre>
 {
 	title: song.trackName,
 	albumArt: song.artworkUrl60,
@@ -58,7 +58,7 @@ Requests will go through http://bcw-getter.herokuapp.com to get around the CORS 
 	price: song.collectionPrice,
 	preview: song.previewUrl
 }
-</code></p>
+</pre></code></p>
 
 <br>
 
