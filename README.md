@@ -23,7 +23,7 @@ Requests will go through http://bcw-getter.herokuapp.com to get around the CORS 
 	<li>song preview (hint: "html audio tag")</li>
 </ul>
 
-<p>Example:</p>
+<p>Example UI (without limit input):</p>
 <img src="https://boisecodeworks.github.io/jQueryMusicSearch/docs/ui-example.jpeg">
 
 <br>
