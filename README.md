@@ -39,7 +39,7 @@ Requests will go through http://bcw-getter.herokuapp.com to get around the CORS 
 
 <ul>
 	<li><strong>API Url:</strong> http://bcw-getter.herokuapp.com/?url=https://itunes.apple.com/search?term=</li>
-	<li><strong>Result Limits:</strong> The number of results are automatically limited to 50 items. To reduce the limit by appending a limit parameter. For example, to limit the results to 25 items, you can append <code>&amp;limit=25</code> to the request url.</li>
+	<li><strong>Result Limits:</strong> The number of results are automatically limited to 50 items. You can reduce the limit by appending a limit parameter. For example, to limit the results to 25 items, you can append <code>&amp;limit=25</code> to the request url.</li>
 	<li><strong>Url Encoding:</strong> Before making the AJAX request, the request url needs to be encoded with <code>encodeURIComponent</code> to compensate for spaces in the search term. The following example demonstrates using <code>encodeURIComponent</code><br><code>var encodedUrl = encodeURIComponent(url);</code></li>
 	<li><strong>Response Type:</strong> JSON</li>
 </ul>
